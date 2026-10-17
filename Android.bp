@@ -1,0 +1,8 @@
+package {
+    default_applicable_licenses: ["Android-Apache-2.0"],
+}
+
+java_import_host {
+    name: "geojson-jackson",
+    jars: ["lib64/geojson-jackson.jar"],
+}
